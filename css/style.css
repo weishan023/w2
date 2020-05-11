@@ -1,0 +1,116 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont," Microsoft JhengHei ", "Segoe UI","Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+html{
+    font-size: 26px;
+}
+header{
+    width: 100%;
+    color: white;
+    font-style: italic;
+    background: url(../images/photo-1552393700-42696fb89bfa.png) center center;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header i>div{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    padding: 400px 0;
+}
+header h1 span{
+    font-size: 280%;
+    font-weight: bold;
+}
+
+section{
+    padding: 80px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    font-size: 62px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+section{
+    line-height: 1.5em;
+    font-size: 24px;
+    font-weight:  bold;
+}
+section.about{
+    max-width: 450px;
+}
+section.about img{
+    margin-bottom: 40px;
+}
+section.about hr{
+    width: 90%;
+}
+section.about ul li::before{
+    content:'';
+    display: inline-block;
+    background-color: #891818;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+section.about ul li{
+    line-height:2em;
+}
+section.brand{
+    background-color: #000000;
+    color:#ffffff;
+}
+section.brand img{
+    margin-bottom: 40px;
+}
+.fz90{
+    display: inline-block;
+    font-size: 90%;
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+section.other{
+    background:url(../images/photo-1561291386-5be50364cfb5.png) 0 350px no-repeat;
+    padding-bottom: 0;
+}
+section.other>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    color: white;
+    line-height:3em;
+    margin-bottom: 0;
+}
+section.other>div>div{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    padding: 80px 0;
+    line-height:2em;
+}
+footer h2{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1175px) {
+    section.other>div{
+        justify-content: center;
+    }
+}
